@@ -93,6 +93,14 @@ The code has been tested with CUDA 10.2/CuDNN 7.6.5, PyTorch 1.9.0 and timm 0.4.
 
 ### Usage: Self-supervised Pre-Training
 
+
+#### Environment 
+```
+conda create -n mocov3 python=3.8 
+pip install -r requirements.txt
+```
+
+
 Below are three examples for MoCo v3 pre-training. 
 
 #### ResNet-50 with 2-node (16-GPU) training, batch 4096
