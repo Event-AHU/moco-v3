@@ -96,6 +96,7 @@ The code has been tested with CUDA 10.2/CuDNN 7.6.5, PyTorch 1.9.0 and timm 0.4.
 
 #### Environment 
 ```
+conda activate mocov3
 conda create -n mocov3 python=3.8 
 pip install -r requirements.txt
 ```
